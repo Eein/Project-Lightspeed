@@ -106,9 +106,7 @@ const App = () => {
       <MainContainer>
         <VideoContainer>
           <VideoPlayer src={state.stream} />
-          <VideoDetails viewers={state.viewers} />
         </VideoContainer>
-        <LiveChat></LiveChat>
       </MainContainer>
     </>
   );
